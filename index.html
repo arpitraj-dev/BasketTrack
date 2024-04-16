@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BasketTrack</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="hd">
+        <h1>BASKETBALL SCORECARD</h1>
+    </div>
+
+    <div class="box">
+
+        <div class="hm">
+            <h3>HOME</h3>
+            <p id="home-pts">0</p>
+
+            <div id="firstbtn">
+                <button class="btn" onclick="incbyone()">+1</button>
+                <button class="btn" onclick="incbytwo()">+2</button>
+                <button class="btn" onclick="incbythree()">+3</button>
+            </div>
+
+        </div>
+
+        <div class="gu">
+            <h3>GUEST</h3>
+            <p id="guest-pts">0</p>
+
+            <div id="secondbtn">
+                <button class="btn" onclick="inbyone()">+1</button>
+                <button class="btn" onclick="inbytwo()">+2</button>
+                <button class="btn" onclick="inbythree()">+3</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="dn-btn">
+        <button class="btns-1" onclick="ng()">New Game</button>
+        <button class="btns-1" onclick="eg()">End Game</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
